@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 print("OpenCV Imported")
-cap = cv2.VideoCapture("Resources/test.mp4")  # Keep empty to use webcam
+cap = cv2.VideoCapture("Resources/test.mp4")  # make (0) to use webcam
 print("Video Assigned")
 ret, frame1 = cap.read()  # Frame 1
 ret, frame2 = cap.read()  # Frame 2

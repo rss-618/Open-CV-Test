@@ -6,7 +6,7 @@ print("Package Imported")
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 #  Grab Image
-img = cv2.imread("Resources/test.jpg")  # Keep empty if want to use webcam
+img = cv2.imread("Resources/test.jpg")  # make (0) if want to use webcam
 # Convert into grayscale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # Detect faces
